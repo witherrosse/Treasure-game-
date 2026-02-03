@@ -1,6 +1,4 @@
-# Treasure Island 🏝️
-
-A simple text-based adventure game written in Python.
+# Treasure Island 
 
 ## Concepts Used
 - Conditional statements
