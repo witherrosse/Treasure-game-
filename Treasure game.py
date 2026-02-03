@@ -1,7 +1,7 @@
 def print_intro():
     """Display the game introduction."""
     print("""
-🏝️ Welcome to Treasure Island.
+ Welcome to Treasure Island.
 Your mission is to find the hidden treasure.
     """)
 
