@@ -36,23 +36,23 @@ def start_game():
     print_intro()
 
     if choose_path() != "left":
-        print("❌ You fell into a hole. Game Over.")
+        print(" You fell into a hole. Game Over.")
         return
 
     if choose_action() != "wait":
-        print("❌ You were attacked by trout. Game Over.")
+        print(" You were attacked by trout. Game Over.")
         return
 
     door = choose_door()
 
     if door == "yellow":
-        print("🏆 You found the treasure! You Win!")
+        print(" You found the treasure! You Win!")
     elif door == "red":
-        print("🔥 Burned by fire. Game Over.")
+        print(" Burned by fire. Game Over.")
     elif door == "blue":
-        print("🐺 Eaten by beasts. Game Over.")
+        print(" Eaten by beasts. Game Over.")
     else:
-        print("❌ Invalid choice. Game Over.")
+        print(" Invalid choice. Game Over.")
 
 
 if __name__ == "__main__":
